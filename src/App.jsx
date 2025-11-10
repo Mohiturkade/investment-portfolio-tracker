@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Details from "./Components/Details/Details.jsx";
 import LandingPage from "./Components/LandingPage/LandingPage.jsx";
-import Signup from "./Components/SignUp/SignUp.jsx";
+import Signup from "./Components/Signup/Signup.jsx";
 
 function App() {
   return (
