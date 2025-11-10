@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%; 
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 60px;
+  border-radius: 12px;
+  margin: 10px;
+  
+}
+
+.nav-left h2 {
+  font-size: 20px; /* smaller title */
+  color: black;
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* slightly reduced spacing */
+}
+
+.nav-right button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: none;
+
+ cursor: pointer;
+  color: #333;
+ 
+  font-size: 14px; /* slightly smaller font */
+
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+
+}
+
+.nav-right button:hover {
+  background-color: rgba(0, 119, 204, 0.1);
+}
+
+.dashboard-icon,
+.add-icon {
+  width: 20px;
+  height: 20px; /* smaller icons */
+}
+
+
+
+.nav-right .profile-icon {
+  width: 32px; /* smaller profile size */
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav-right .profile-icon:hover {
+  transform: scale(1.08);
+}
